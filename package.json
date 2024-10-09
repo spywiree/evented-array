@@ -1,6 +1,6 @@
 {
   "name": "@spywiree/evented-array",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,13 @@
     "url": "https://github.com/spywiree/evented-array/issues"
   },
   "homepage": "https://github.com/spywiree/evented-array#readme",
-  "description": "",
   "dependencies": {
     "mitt": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "array",
+    "events"
+  ],
+  "description": "```ts import { EventedArray } from \"@spywiree/evented-array\"; ```"
 }
